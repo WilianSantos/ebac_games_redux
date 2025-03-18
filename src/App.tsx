@@ -3,9 +3,11 @@ import { Provider } from 'react-redux'
 import Header from './components/Header'
 import Produtos from './containers/Produtos'
 
-import { store } from './store'
+import { configuraStore } from './store'
 
 import { GlobalStyle } from './styles'
+
+const store = configuraStore()
 
 export type Game = {
   id: number

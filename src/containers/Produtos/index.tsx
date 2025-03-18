@@ -1,6 +1,6 @@
-import { useGetGamesQuery } from '../services/api'
+import { useGetGamesQuery } from '../../services/api'
 
-import Produto from '../components/Produto'
+import Produto from '../../components/Produto'
 
 import * as S from './styles'
 
